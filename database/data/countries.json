@@ -1,0 +1,18 @@
+[
+    {"id":"1","name":"méxico","dollar_change":"20","tax":"16","currency_type":"pesos mexicanos"},
+    {"id":"2","name":"colombia","dollar_change":"3838","tax":"19","currency_type":"peso colombiano"},
+    {"id":"3","name":"panama","dollar_change":"1","tax":"7","currency_type":"usd"},
+    {"id":"4","name":"perú","dollar_change":"3.81","tax":"18","currency_type":"nuevos soles"},
+    {"id":"5","name":"brasil","dollar_change":"5.2","tax":"18","currency_type":"real brasileño"},
+    {"id":"6","name":"uruguay","dollar_change":"38.82","tax":"22","currency_type":"pesos uruguayos"},
+    {"id":"7","name":"costa rica","dollar_change":"642.75","tax":"8","currency_type":"colón"},
+    {"id":"8","name":"ecuador","dollar_change":"1","tax":"12","currency_type":"dolar"},
+    {"id":"9","name":"chile","dollar_change":"879","tax":"19","currency_type":"pesos chilenos"},
+    {"id":"10","name":"argentina","dollar_change":"202","tax":"21","currency_type":"pesos argentinos"},
+    {"id":"11","name":"paraguay","dollar_change":"7240","tax":"10","currency_type":"guaraníes"},
+    {"id":"12","name":"el salvador","dollar_change":"1","tax":"13","currency_type":"dólar"},
+    {"id":"13","name":"republica dominicana","dollar_change":"57","tax":"13","currency_type":"peso dominicano"},
+    {"id":"14","name":"guatemala","dollar_change":"7.75","tax":"12","currency_type":"quetzales"},
+    {"id":"15","name":"honduras","dollar_change":"24.09","tax":"12","currency_type":"lempira hondureña"},
+    {"id":"17","name":"puerto rico","dollar_change":"1","tax":"19","currency_type":"usd"}
+]
