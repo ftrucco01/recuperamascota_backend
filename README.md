@@ -1,6 +1,6 @@
 ## Pets App Backend
 
-This README document outlines the development of the backend module for the Pets App. The backend is responsible for managing pet and client data, as well as facilitating communication between them through invitations and reporting.
+This README document outlines the development of the backend module for the Pets App. The backend is responsible for managing pet and client data, as well as facilitating communication between them through invitations and reporting
 
 ### User Endpoints:
 1. **List Users**
