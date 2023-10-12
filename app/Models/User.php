@@ -12,6 +12,7 @@ use Spatie\Activitylog\LogOptions;
 use Spatie\Activitylog\Traits\LogsActivity;
 use Spatie\Permission\Traits\HasRoles;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
  * @property array $payload
@@ -60,6 +61,11 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'payload' => 'array'
     ];
+
+    public function pets(): HasMany
+    {
+        return $this->hasMany(Pet::class);
+    }
 
     // ************
     //   Eloquent

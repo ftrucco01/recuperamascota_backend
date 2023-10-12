@@ -40,7 +40,11 @@ Route::middleware('auth:api')->namespace('App\Http\Controllers\User')->group(fun
 
 });
 
+// Rutas API para recursos de mascotas
+Route::namespace('App\Http\Controllers\Api\PetController');
+
 /* UPLOADS */
 Route::prefix('uploads')->namespace('App\Http\Controllers\Image')->name('uploads.')->group(function() {
     Route::post('{type}', 'ImageController')->name('uploadFiles');
 });
+
