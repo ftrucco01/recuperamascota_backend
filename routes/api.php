@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
@@ -11,6 +12,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
+
+
+Route::get('login/instagram', [LoginController::class, 'redirectToInstagramProvider'])->name('instagram.login');
+
+Route::get('login/instagram/callback', [LoginController::class, 'instagramProviderCallback'])->name('instagram.login.callback');
 
 /* AUTH */
 Route::namespace('App\Http\Controllers\Auth')->group(function() {
